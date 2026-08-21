@@ -7,3 +7,7 @@ CREATE TABLE Department (
     DepartmentName VARCHAR(20),
     HOD VARCHAR(20)
 );
+DECS Department;
+INSERT Department values("101","Chandru","Jayandhi");
+SELECT * FROM Department;
+DESC Department;
